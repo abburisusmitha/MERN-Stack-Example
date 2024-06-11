@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abburisusmitha_MERN_Stack_Example_1718106372890-pr-trigger-input-set
+  identifier: Build_abburisusmitha_MERN_Stack_Example_1718106372890prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_abburisusmitha_MERN_Stack_Example_1718106372890
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
