@@ -20,7 +20,11 @@ pipeline:
                     connectorRef: dockerabburi
                     image: latest
                     shell: Sh
-                    command: echo "Welcome to Harness CI"
+                    command: |-
+                      echo "Welcome to Harness CI"
+                      cd server
+                      yarn install;
+                      yarn test;
               - step:
                   type: BuildAndPushDockerRegistry
                   name: BuildAndPushDockerRegistry_1
