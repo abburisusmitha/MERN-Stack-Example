@@ -31,7 +31,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: dockerabburi
-                    repo: abburinageswararao/dockerhorness
+                    repo: abburinageswararao
                     tags:
                       - latest
                     dockerfile: server/Dockerfile
