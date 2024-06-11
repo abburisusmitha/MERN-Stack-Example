@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_abburisusmitha_MERN_Stack_Example_1718106372890-push-trigger-input-set
+  identifier: Build_abburisusmitha_MERN_Stack_Example_1718106372890pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_abburisusmitha_MERN_Stack_Example_1718106372890
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
