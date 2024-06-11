@@ -17,7 +17,7 @@ pipeline:
                   name: Echo Welcome Message
                   identifier: Echo_Welcome_Message
                   spec:
-                    connectorRef: dockerhorness
+                    connectorRef: dockerabburi
                     image: latest
                     shell: Sh
                     command: echo "Welcome to Harness CI"
