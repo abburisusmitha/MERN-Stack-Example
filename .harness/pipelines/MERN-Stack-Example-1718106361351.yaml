@@ -21,7 +21,6 @@ pipeline:
                     image: latest
                     shell: Sh
                     command: |-
-                      echo "Welcome to Harness CI"
                       cd server
                       yarn install;
                       yarn test;
