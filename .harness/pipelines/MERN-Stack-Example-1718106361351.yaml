@@ -14,7 +14,7 @@ pipeline:
             steps:
               - step:
                   type: Run
-                  name: Echo Welcome Message
+                  name: docker
                   identifier: Echo_Welcome_Message
                   spec:
                     connectorRef: dockerabburi
