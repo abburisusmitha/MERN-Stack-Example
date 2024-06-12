@@ -29,12 +29,10 @@ pipeline:
                   name: BuildAndPushDockerRegistry_1
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
-                    connectorRef: dockerabburi
+                    connectorRef: dockerhorness
                     repo: abburinageswararao/harness_01
                     tags:
                       - latest
-                    dockerfile: server/Dockerfile
-                    context: server
           platform:
             os: Linux
             arch: Amd64
